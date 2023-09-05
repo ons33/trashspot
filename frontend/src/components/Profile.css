@@ -1,0 +1,11 @@
+.camModal{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.innerCamModal{
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgb(197, 182, 182);
+}

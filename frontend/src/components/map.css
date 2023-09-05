@@ -1,0 +1,135 @@
+.map-container{
+    display:block;
+     position: fixed;
+     top: 64px;
+     height:100%;
+     width:calc(100% - 710px);
+     right:0;
+    }
+    :root{
+        --border-left:#fb6340;
+        --border-right:#fb6340;
+        
+      }
+    .changestyle{
+        position:absolute;
+        background-color: white;
+        border-color: #e3e3e3;
+        border-radius: 7px;
+        border:0;
+        width: 32px;
+        height:35px;
+        right: 9px;
+        top:215px;
+        z-index: 3;
+        background-image: url(../assets/img/satellite.png);background-size: cover;
+  }
+
+  .mapboxgl-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    opacity: 1;
+    transition: opacity .2s;
+}
+  .mapboxgl-marker {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:1px solid gray;
+    background-color:lightblue;
+}
+
+.mapboxgl-marker:hover {
+    cursor: pointer;
+  }
+
+  .mapboxgl-marker:hover svg > g > g:nth-child(2) {
+    fill: green;
+  }
+  .MarkerByUser, .trashSpot {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #fb6340; 
+    text-align: center;
+    font-weight: 900;
+    color: #023047  ;
+    font-family: arial;
+    cursor:pointer;
+    margin-top: -12px;
+    padding: 10px;
+    color: white;
+    padding-left: 6px;
+  }
+  .MarkerByUser:before {
+    content: "";
+    /* width: 0px;
+    height: 0px; */
+    position: absolute;
+    border-top: 17px solid var(--border-left);
+    border-left: 10px solid transparent;
+    border-right: 7px solid transparent;
+    left: 17px;
+    bottom: -15px;
+    z-index: -1;
+  }
+  .MarkerByUser:hover{
+    background-color: #fd8c73;
+  }
+  .trashSpot{
+    width: 50px;
+    height: 50px;
+    background:green;
+    z-index: 2;
+  }
+  .trashSpot:before {
+    content: "";
+    /* width: 0px;
+    height: 0px; */
+    position: absolute;
+    border-top: 17px solid rgb(46, 73, 104);
+    border-left: 10px solid transparent;
+    border-right: 7px solid transparent;
+    left: 17px;
+    bottom: -15px;
+    z-index: 1;
+  }
+  .trashSpot:hover{
+    background-color: rgb(4, 146, 4);
+  }
+
+  .locateMe{
+    
+    position:absolute;
+    background-color: white;
+    border: 1px solid black !important;
+    border-color: #000000;
+    border-radius: 7px;
+    border:0;
+    color:black;
+    padding:5px;
+    right: 9px;
+    top:160px;
+    z-index: 3;
+  }
+
+  .roundedGround{
+    background-color: blue;
+    border-radius: 50%;
+    opacity: 0.2;
+    transform: translateY(-50%);
+  }
+
+  @media (max-width:725px)  {
+    .map-container{
+      left: 0;
+      bottom: 0;
+    height:40%;
+    width:100%;
+    top: auto;
+    z-index: 3;
+    }
+
+  }

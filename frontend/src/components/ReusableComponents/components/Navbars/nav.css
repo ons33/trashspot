@@ -1,0 +1,22 @@
+.navbarClass {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  font-size: 20px;
+  z-index: 9999;
+}
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: none !important;
+}
+
+/* style={{position: "sticky",
+    top: 0,
+    background: "white",
+    zIndex: 999999}
+    } */
+.buttonNavMahdi {
+  background-image: url(../../../../assets/img/navImage.png) !important;
+  background-size: cover !important;
+  color: black;
+}

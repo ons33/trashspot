@@ -1,0 +1,14 @@
+.cardMahdi{
+    width: 18.5%;
+    margin:10px;
+    min-width:300px;
+}
+.exp{
+    display: flex;
+}
+@media screen and (max-width: 1024px) {
+.exp{
+   display:flex;
+   flex-direction:column;
+}
+}

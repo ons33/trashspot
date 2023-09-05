@@ -1,0 +1,35 @@
+.facebook-share-button {
+  display: inline-block;
+  background-color: #3b5998;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.facebook-share-button:hover {
+  background-color: #2d4373;
+}
+
+.comments-block {
+  position: relative; /* Position relative for positioning the message div */
+}
+.comments-list {
+  /* Define styles for the comments list */
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.comment {
+  /* Add styles for each comment */
+  margin-bottom: 10px; /* Add margin at the bottom to separate comments */
+  /* Add any other styles you want for comments */
+}
+
+.comment-input {
+  /* Define styles for the comment input and button */
+  display: flex;
+  gap: 10px; /* Adjust the gap between input and button as needed */
+}

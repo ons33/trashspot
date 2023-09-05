@@ -1,0 +1,64 @@
+.containerrr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .cardd {
+    width: 340px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1rem;
+    border: #f59e0b;
+  }
+  
+  .cardd img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cardd:hover img {
+    transform: translateY(-10px);
+  }
+  
+  .cardd::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(transparent, #6c757d);
+  }
+  
+  .cardd-content {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: #fff;
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cardd-content h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardd-content .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardd-content .rating svg {
+    height: 1.2rem;
+    width: 1.2rem;
+    flex-shrink: 0;
+    fill: #f59e0b;
+    margin-right: 0.25rem;
+  }
+  

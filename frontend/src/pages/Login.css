@@ -1,0 +1,10 @@
+.backGroundModal{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    background-color: black;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}

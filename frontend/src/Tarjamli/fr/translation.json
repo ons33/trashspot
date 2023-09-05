@@ -1,0 +1,27 @@
+{
+
+   
+        "welcome":"Bienvenue",
+        "Your Profile":"votre profile",
+        "settings":"options",
+        "Sign out":"deconnecter",
+        "Home":"Acceuil" ,
+        "Profile":"votre profile" ,
+        "Recepies": "les Recettes" ,
+        "TrashSpot": "Votre poubelle",
+        "Support Center":"Contactez le support",
+        "feel free to report  us any bugs or  Reports!":"N'hésitez pas à nous signaler tout bug ou rapport",
+        "Complete this form and we will get back to you in 24hours":"Remplissez ce formulaire et nous vous répondrons dans les 24 heures",
+        "email":"ton email",
+        "Subject":"sujet",
+        "Message":"message",
+        "Send Message":"envoyer",
+        "Rate your Experience!": "Évaluez votre expérience !",
+        "Thank you for submitting!": "Merci d'avoir soumis !",
+        "Your feedback has been received": "Votre feedback a été reçu",
+        "Welcome to Zero Waste":"Bienvenue à zero waste",
+        "language":"langue",
+        "Products": "Produits",
+        "Basket": "Panier"
+
+}
